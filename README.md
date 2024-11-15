@@ -1,10 +1,10 @@
-# Cat-Box Inteligente Integrado com CWMP
+# Chat-Box Inteligente Integrado com CWMP
 
 Este projeto implementa uma **Cat-Box inteligente**, que é integrada ao **CWMP** (CPE WAN Management Protocol), oferecendo uma solução técnica melhorada para monitoramento e controle remoto de dispositivos. A arquitetura do sistema envolve uma **API backend** desenvolvida com **FastAPI**, um **frontend** em **React**, e um banco de dados relacional **PostgreSQL**.
 
 ## Descrição
 
-A **Cat-Box Inteligente** foi projetada para permitir que os usuários monitorem e interajam com suas caixas de gato (ou outros dispositivos) por meio de uma plataforma intuitiva, garantindo maior controle e automação no processo. A integração com **CWMP** permite uma comunicação eficiente e segura entre os dispositivos e o backend da aplicação.
+A **Chat-Box Inteligente** foi projetada para permitir que os usuários monitorem e interajam com suas caixas de gato (ou outros dispositivos) por meio de uma plataforma intuitiva, garantindo maior controle e automação no processo. A integração com **CWMP** permite uma comunicação eficiente e segura entre os dispositivos e o backend da aplicação.
 
 O sistema também inclui melhorias técnicas, como:
 - **Interação em tempo real** com a aplicação via **React**.
