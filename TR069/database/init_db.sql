@@ -25,16 +25,16 @@ CREATE TABLE IF NOT EXISTS incidente (
 
 -- Insert sample data
 INSERT INTO cliente (nome, status_pagamento, regiao, ultima_interacao) VALUES
-('João Silva', 'em dia', 'Centro', 'consulta de boleto'),
-('Maria Oliveira', 'pendente', 'Zona Norte', 'alteração de senha'),
-('Carlos Santos', 'em dia', 'Zona Sul', 'relato de lentidão'),
-('Ana Rodrigues', 'pendente', 'Zona Leste', 'solicitação de suporte'),
-('Pedro Almeida', 'em dia', 'Zona Oeste', 'consulta de planos'),
-('Fernanda Lima', 'pendente', 'Centro', 'reclamação de sinal'),
-('Ricardo Souza', 'em dia', 'Zona Norte', 'elogio ao atendimento'),
-('Juliana Costa', 'pendente', 'Zona Sul', 'dúvida sobre fatura'),
-('Marcelo Ferreira', 'em dia', 'Zona Leste', 'agendamento de visita técnica'),
-('Camila Martins', 'pendente', 'Zona Oeste', 'cancelamento de serviço');
+('cliente 1', 'em dia', 'Centro', 'consulta de boleto'),
+('cliente 2', 'pendente', 'Zona Norte', 'alteração de senha'),
+('cliente 3', 'em dia', 'Zona Sul', 'relato de lentidão'),
+('cliente 4', 'pendente', 'Zona Leste', 'solicitação de suporte'),
+('cliente 5', 'em dia', 'Zona Oeste', 'consulta de planos'),
+('cliente 6', 'pendente', 'Centro', 'reclamação de sinal'),
+('cliente 7', 'em dia', 'Zona Norte', 'elogio ao atendimento'),
+('cliente 8', 'pendente', 'Zona Sul', 'dúvida sobre fatura'),
+('cliente 9', 'em dia', 'Zona Leste', 'agendamento de visita técnica'),
+('cliente 10', 'pendente', 'Zona Oeste', 'cancelamento de serviço');
 
 INSERT INTO pendencia (cliente_id, valor_pendente, data_vencimento, status) VALUES
 (2, 100.00, '2024-11-15', 'Pendente'),
