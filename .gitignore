@@ -1,1 +1,17 @@
-TR069/backend/.env
+*.env
+# Backend - Python
+venv/
+__pycache__/
+*.pyc
+
+# Frontend - Node.js
+node_modules/
+package-lock.json
+
+# Arquivos específicos de sistemas operacionais
+.DS_Store
+Thumbs.db
+
+# Arquivos de configuração de IDEs
+.idea/
+.vscode/
